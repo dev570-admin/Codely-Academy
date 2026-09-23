@@ -102,6 +102,7 @@ p {
     font-size: 23px;
     font-weight: 800;
     letter-spacing: -0.5px;
+    color: inherit;
 }
 
 .brand b {
@@ -119,6 +120,10 @@ p {
     background: linear-gradient(135deg, var(--gold-soft) 0%, var(--gold) 100%);
     font-size: 20px;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+.footer .brand {
+    color: inherit;
 }
 
 .nav-links {
@@ -1470,6 +1475,25 @@ p {
         padding: 35px 26px;
     }
 
+    .faculty-wrap {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    .faculty-copy p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .certificate-card {
+        width: 100%;
+        padding: 22px 18px;
+    }
+
+    .certificate-card h3 {
+        font-size: 22px;
+    }
+
     .footer-grid {
         grid-template-columns: 1fr 1fr;
         gap: 30px 20px;
@@ -1659,6 +1683,22 @@ p {
         font-size: 22px;
     }
 
+    .faculty-wrap {
+        gap: 18px;
+    }
+
+    .faculty-copy h2 {
+        font-size: 28px;
+    }
+
+    .certificate-card h3 {
+        font-size: 20px;
+    }
+
+    .certificate-meta {
+        gap: 8px;
+    }
+
     .art-sticker {
         font-size: 9px;
         padding: 6px 8px;
@@ -1701,6 +1741,14 @@ p {
 
     .study-card h3 {
         font-size: 20px;
+    }
+
+    .faculty-copy h2 {
+        font-size: 24px;
+    }
+
+    .certificate-card h3 {
+        font-size: 18px;
     }
 
     .art-sticker {
